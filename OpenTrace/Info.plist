@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>$(OT_DISPLAY_NAME)</string>
+	<string>Tribe Trace</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIconName</key>
@@ -29,9 +29,7 @@
 			<string>STG</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>&lt;staging</string>
-				<string>url</string>
-				<string>scheme&gt;</string>
+				<string>com.googleusercontent.apps.1012154528076-tsoq4l7vrbg2c9l4qu09kif331gor2ks</string>
 			</array>
 		</dict>
 		<dict>
@@ -41,9 +39,7 @@
 			<string>PROD</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>&lt;production</string>
-				<string>url</string>
-				<string>scheme&gt;</string>
+				<string>com.googleusercontent.apps.1012154528076-tsoq4l7vrbg2c9l4qu09kif331gor2ks</string>
 			</array>
 		</dict>
 		<dict>
@@ -69,6 +65,8 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>27</string>
+	<key>CLOUDFUNCTIONS_REGION</key>
+	<string>$(CLOUDFUNCTIONS_REGION)</string>
 	<key>FIREBASE_STORAGE_URL</key>
 	<string>$(FIREBASE_STORAGE_URL)</string>
 	<key>GitBranchInfo</key>
@@ -76,13 +74,13 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>OpenTrace exchanges Bluetooth signals with nearby phones running the same app. These signals contain an anonymised ID, which is encrypted and changes continually to ensure your privacy.</string>
+	<string>Tribe Trace exchanges Bluetooth signals with nearby phones running the same app. These signals contain an anonymised ID, which is encrypted and changes continually to ensure your privacy.</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>OpenTrace exchanges Bluetooth signals with nearby phones running the same app. These signals contain an anonymised ID, which is encrypted and changes continually to ensure your privacy.</string>
+	<string>Tribe Trace exchanges Bluetooth signals with nearby phones running the same app. These signals contain an anonymised ID, which is encrypted and changes continually to ensure your privacy.</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Grant OpenTrace permissions to access your camera if you would like to upload a photo as part of a support request</string>
+	<string>Grant Tribe Trace permissions to access your camera if you would like to upload a photo as part of a support request</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Grant OpenTrace permissions to access your photo library if you would like to upload a photo as part of a support request</string>
+	<string>Grant Tribe Trace permissions to access your photo library if you would like to upload a photo as part of a support request</string>
 	<key>TRACER_SVC_ID</key>
 	<string>${SERVICE_UUID}</string>
 	<key>UIAppFonts</key>
@@ -126,7 +124,5 @@
 	<string>Light</string>
 	<key>V2_CHARACTERISTIC_ID</key>
 	<string>$(V2_CHARACTERISTIC_ID)</string>
-	<key>CLOUDFUNCTIONS_REGION</key>
-	<string>$(CLOUDFUNCTIONS_REGION)</string>
 </dict>
 </plist>
