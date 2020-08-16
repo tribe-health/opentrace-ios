@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Za-gw-wMf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17147" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Za-gw-wMf">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17120"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -74,7 +75,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="nOG-gl-32p"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="LX0-7p-Shs" firstAttribute="leading" secondItem="nOG-gl-32p" secondAttribute="leading" constant="24" id="2RI-Og-uUL"/>
                             <constraint firstItem="JYM-TW-Zxf" firstAttribute="leading" secondItem="nOG-gl-32p" secondAttribute="leading" constant="26" id="3oB-vQ-Yiz"/>
@@ -92,7 +94,6 @@
                             <constraint firstItem="00h-JA-MfK" firstAttribute="top" secondItem="JYM-TW-Zxf" secondAttribute="bottom" constant="-1" id="vGJ-xR-jsh"/>
                             <constraint firstAttribute="trailing" secondItem="JYM-TW-Zxf" secondAttribute="trailing" constant="26" id="vvj-pg-dQK"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="nOG-gl-32p"/>
                     </view>
                     <navigationItem key="navigationItem" id="M5c-Sc-QmX"/>
                 </viewController>
@@ -137,7 +138,8 @@ The health authority will seek your consent to upload the data, if it’s needed
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Zbo-54-kdf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Pxu-Q6-QrV" secondAttribute="trailing" constant="26" id="23V-Xk-1vz"/>
                             <constraint firstItem="Pxu-Q6-QrV" firstAttribute="top" secondItem="Zbo-54-kdf" secondAttribute="top" constant="22" id="6JG-J7-V8G"/>
@@ -152,7 +154,6 @@ The health authority will seek your consent to upload the data, if it’s needed
                             <constraint firstItem="u5f-cs-P3k" firstAttribute="leading" secondItem="Zbo-54-kdf" secondAttribute="leading" constant="24" id="cfO-Xw-q1X"/>
                             <constraint firstItem="ML0-z9-4tI" firstAttribute="leading" secondItem="Zbo-54-kdf" secondAttribute="leading" constant="24" id="gKr-qd-Elg"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Zbo-54-kdf"/>
                     </view>
                     <navigationItem key="navigationItem" id="lTd-N2-ef4"/>
                     <connections>
@@ -181,7 +182,7 @@ The health authority will seek your consent to upload the data, if it’s needed
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </activityIndicatorView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tuw-g5-oMO">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tuw-g5-oMO">
                                 <rect key="frame" x="24" y="496" width="272" height="48"/>
                                 <fontDescription key="fontDescription" name="Muli" family="Muli" pointSize="16"/>
                                 <state key="normal" title="Get OTP" backgroundImage="button-gradient">
@@ -217,7 +218,7 @@ Use their number instead of yours.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.33000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="2mB-by-LSD" customClass="VariableHeightProgressView" customModule="OpenTrace" customModuleProvider="target">
-                                <rect key="frame" x="24" y="468" width="272" height="6"/>
+                                <rect key="frame" x="24" y="468" width="272" height="4"/>
                                 <color key="progressTintColor" red="0.26666666666666666" green="0.61568627450980395" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="trackTintColor" red="0.8784313725490196" green="0.8784313725490196" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                                 <userDefinedRuntimeAttributes>
@@ -227,7 +228,8 @@ Use their number instead of yours.</string>
                                 </userDefinedRuntimeAttributes>
                             </progressView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="hck-9P-Njf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="2mB-by-LSD" firstAttribute="leading" secondItem="hck-9P-Njf" secondAttribute="leading" constant="24" id="1Ty-ig-s1k"/>
                             <constraint firstItem="oa7-Z8-RbO" firstAttribute="top" secondItem="16b-Xl-c5b" secondAttribute="bottom" constant="18" id="4JV-7o-2PR"/>
@@ -250,7 +252,6 @@ Use their number instead of yours.</string>
                             <constraint firstItem="2mB-by-LSD" firstAttribute="centerX" secondItem="hck-9P-Njf" secondAttribute="centerX" id="ncP-dp-1He"/>
                             <constraint firstItem="Tuw-g5-oMO" firstAttribute="leading" secondItem="hck-9P-Njf" secondAttribute="leading" constant="24" id="xBM-sP-MLX"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="hck-9P-Njf"/>
                     </view>
                     <navigationItem key="navigationItem" id="yu2-9q-yeC"/>
                     <connections>
@@ -273,13 +274,13 @@ Use their number instead of yours.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="Enter OTP that was sent to " lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWc-qS-9y6">
-                                <rect key="frame" x="32" y="30" width="256" height="23.5"/>
+                                <rect key="frame" x="32" y="30" width="256" height="59"/>
                                 <fontDescription key="fontDescription" name="Muli-Bold" family="Muli" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7X-Ux-SAc">
-                                <rect key="frame" x="32" y="61.5" width="116" height="24"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7X-Ux-SAc">
+                                <rect key="frame" x="32" y="97" width="124" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="sdC-LH-a2i"/>
                                 </constraints>
@@ -290,23 +291,23 @@ Use their number instead of yours.</string>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KLp-Fk-KTm" userLabel="OTPContainerView">
-                                <rect key="frame" x="0.0" y="85.5" width="320" height="143"/>
+                                <rect key="frame" x="0.0" y="121" width="320" height="148"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5L2-jv-Oa6" customClass="CodeInputView" customModule="OpenTrace" customModuleProvider="target">
                                         <rect key="frame" x="16" y="8" width="288" height="100"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="94m-dG-wrd"/>
                                         </constraints>
                                     </view>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wrong OTP entered" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWN-Zo-GBT">
-                                        <rect key="frame" x="32" y="116" width="268" height="19"/>
+                                        <rect key="frame" x="32" y="116" width="268" height="24"/>
                                         <fontDescription key="fontDescription" name="Muli" family="Muli" pointSize="16"/>
-                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="systemRedColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="aWN-Zo-GBT" firstAttribute="leading" secondItem="KLp-Fk-KTm" secondAttribute="leading" constant="32" id="9w7-5V-Q3G"/>
                                     <constraint firstItem="5L2-jv-Oa6" firstAttribute="leading" secondItem="KLp-Fk-KTm" secondAttribute="leading" constant="16" id="W5a-4H-5Mv"/>
@@ -318,13 +319,13 @@ Use their number instead of yours.</string>
                                 </constraints>
                             </view>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your code will expire in 3:00." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kc0-pn-IHx">
-                                <rect key="frame" x="32" y="237.5" width="256" height="19"/>
+                                <rect key="frame" x="32" y="278" width="256" height="24"/>
                                 <fontDescription key="fontDescription" name="Muli" family="Muli" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Rh-JE-cit">
-                                <rect key="frame" x="32" y="256.5" width="98" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Rh-JE-cit">
+                                <rect key="frame" x="32" y="302" width="101" height="36"/>
                                 <fontDescription key="fontDescription" name="Muli" family="Muli" pointSize="16"/>
                                 <state key="normal" title="Resend Code"/>
                                 <connections>
@@ -334,7 +335,7 @@ Use their number instead of yours.</string>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1-3 progress" translatesAutoresizingMaskIntoConstraints="NO" id="mpe-kF-NFg">
                                 <rect key="frame" x="24" y="463" width="272" height="9"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQY-RW-yBL">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQY-RW-yBL">
                                 <rect key="frame" x="24" y="496" width="272" height="48"/>
                                 <fontDescription key="fontDescription" name="Muli" family="Muli" pointSize="16"/>
                                 <state key="normal" title="Verify" backgroundImage="button-gradient">
@@ -354,7 +355,8 @@ Use their number instead of yours.</string>
                                 </userDefinedRuntimeAttributes>
                             </activityIndicatorView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="5R8-gb-HbO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ii4-iL-S2Z" firstAttribute="centerY" secondItem="5R8-gb-HbO" secondAttribute="centerY" id="0vM-wk-c86"/>
                             <constraint firstItem="mpe-kF-NFg" firstAttribute="leading" secondItem="5R8-gb-HbO" secondAttribute="leading" constant="24" id="2oZ-GX-dDl"/>
@@ -382,7 +384,6 @@ Use their number instead of yours.</string>
                             <constraint firstItem="lQY-RW-yBL" firstAttribute="leading" secondItem="5R8-gb-HbO" secondAttribute="leading" constant="24" id="wPw-ok-yQY"/>
                             <constraint firstItem="K7X-Ux-SAc" firstAttribute="leading" secondItem="5R8-gb-HbO" secondAttribute="leading" constant="32" id="yhL-6o-ZtF"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="5R8-gb-HbO"/>
                     </view>
                     <navigationItem key="navigationItem" id="aB2-Gn-4Z6"/>
                     <connections>
@@ -424,7 +425,7 @@ Use their number instead of yours.</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9Z-d2-PXT">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9Z-d2-PXT">
                                 <rect key="frame" x="24" y="496" width="272" height="48"/>
                                 <fontDescription key="fontDescription" name="Muli" family="Muli" pointSize="16"/>
                                 <state key="normal" title="I agree" backgroundImage="button-gradient">
@@ -457,7 +458,7 @@ Use their number instead of yours.</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHp-qK-Q85">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHp-qK-Q85">
                                 <rect key="frame" x="84" y="422" width="122" height="32"/>
                                 <fontDescription key="fontDescription" name="Muli" family="Muli" pointSize="13"/>
                                 <state key="normal" title="privacy safeguards">
@@ -468,7 +469,8 @@ Use their number instead of yours.</string>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="b1n-7f-e0t"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="b1n-7f-e0t" firstAttribute="bottom" secondItem="N9Z-d2-PXT" secondAttribute="bottom" constant="24" id="1w5-Dg-dFh"/>
                             <constraint firstItem="5Ca-4b-yql" firstAttribute="top" secondItem="fHp-qK-Q85" secondAttribute="bottom" constant="9" id="3c0-uc-wPo"/>
@@ -497,7 +499,6 @@ Use their number instead of yours.</string>
                             <constraint firstItem="8kX-AB-ztf" firstAttribute="leading" secondItem="b1n-7f-e0t" secondAttribute="leading" constant="24" id="uqr-j7-Hqe"/>
                             <constraint firstItem="b1n-7f-e0t" firstAttribute="trailing" secondItem="WZa-7l-4tI" secondAttribute="trailing" constant="32" id="zI3-Go-etC"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="b1n-7f-e0t"/>
                     </view>
                     <navigationItem key="navigationItem" id="DxS-RM-Ztr"/>
                 </viewController>
@@ -513,7 +514,7 @@ Use their number instead of yours.</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGC-4P-Xbk">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGC-4P-Xbk">
                                 <rect key="frame" x="24" y="496" width="272" height="48"/>
                                 <fontDescription key="fontDescription" name="Muli" family="Muli" pointSize="16"/>
                                 <state key="normal" title="I turned on Bluetooth" backgroundImage="button-gradient">
@@ -548,7 +549,8 @@ Use their number instead of yours.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="uhC-er-6bV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="uhC-er-6bV" firstAttribute="trailing" secondItem="QGC-4P-Xbk" secondAttribute="trailing" constant="24" id="9gn-Mz-yYE"/>
                             <constraint firstItem="Ure-ju-qCc" firstAttribute="top" secondItem="tjL-QF-W6s" secondAttribute="bottom" constant="12" id="AnR-jH-fGg"/>
@@ -569,7 +571,6 @@ Use their number instead of yours.</string>
                             <constraint firstItem="jcN-AE-FsG" firstAttribute="leading" secondItem="uhC-er-6bV" secondAttribute="leading" constant="21" id="ta8-40-RgP"/>
                             <constraint firstItem="tjL-QF-W6s" firstAttribute="top" secondItem="Ahv-yZ-Jd3" secondAttribute="bottom" constant="8" id="xuJ-ia-nAM"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="uhC-er-6bV"/>
                     </view>
                     <navigationItem key="navigationItem" id="wa8-bd-DB6"/>
                     <connections>
@@ -589,7 +590,7 @@ Use their number instead of yours.</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zmj-3v-POB">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zmj-3v-POB">
                                 <rect key="frame" x="24" y="496" width="272" height="48"/>
                                 <fontDescription key="fontDescription" name="Muli-Bold" family="Muli" pointSize="16"/>
                                 <state key="normal" title="Proceed" backgroundImage="button-gradient">
@@ -640,7 +641,8 @@ Your battery usage may increase.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="gTH-Be-3VE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="gTH-Be-3VE" firstAttribute="trailing" secondItem="cma-Te-Ut1" secondAttribute="trailing" constant="21" id="23x-1P-1Me"/>
                             <constraint firstItem="Kv0-mp-Xoy" firstAttribute="leading" secondItem="gTH-Be-3VE" secondAttribute="leading" constant="24" id="2CZ-TJ-Yie"/>
@@ -664,7 +666,6 @@ Your battery usage may increase.</string>
                             <constraint firstItem="9oG-IT-1nY" firstAttribute="leading" secondItem="gTH-Be-3VE" secondAttribute="leading" constant="24" id="toZ-yM-FiQ"/>
                             <constraint firstItem="0pO-gl-umK" firstAttribute="top" secondItem="cma-Te-Ut1" secondAttribute="bottom" constant="-2" id="xAO-Zx-j0N"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="gTH-Be-3VE"/>
                     </view>
                     <navigationItem key="navigationItem" id="B3a-X1-mbg"/>
                 </viewController>
@@ -680,7 +681,7 @@ Your battery usage may increase.</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwi-lK-bOF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwi-lK-bOF">
                                 <rect key="frame" x="24" y="496" width="272" height="48"/>
                                 <fontDescription key="fontDescription" name="Muli" family="Muli" pointSize="16"/>
                                 <state key="normal" title="Continue" backgroundImage="button-gradient">
@@ -709,7 +710,8 @@ Your battery usage may increase.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="PHO-4j-w6y"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="PHO-4j-w6y" firstAttribute="bottom" secondItem="fwi-lK-bOF" secondAttribute="bottom" constant="24" id="0GI-N8-leQ"/>
                             <constraint firstItem="PHO-4j-w6y" firstAttribute="trailing" secondItem="fwi-lK-bOF" secondAttribute="trailing" constant="24" id="ENd-Wu-aZ6"/>
@@ -727,7 +729,6 @@ Your battery usage may increase.</string>
                             <constraint firstAttribute="trailing" secondItem="jCO-yx-Tur" secondAttribute="trailing" constant="24" id="qer-IM-6fe"/>
                             <constraint firstItem="PHO-4j-w6y" firstAttribute="trailing" secondItem="zzU-xp-IaB" secondAttribute="trailing" constant="21" id="sz7-J0-cOE"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="PHO-4j-w6y"/>
                     </view>
                     <navigationItem key="navigationItem" id="Qmi-E0-d5C"/>
                 </viewController>
@@ -809,7 +810,8 @@ Your battery usage may increase.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ExL-Tr-u3N"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ss1-5N-ym7" firstAttribute="top" secondItem="ExL-Tr-u3N" secondAttribute="top" constant="22" id="0dh-eb-Pb4"/>
                             <constraint firstItem="ExL-Tr-u3N" firstAttribute="trailing" secondItem="Rda-kZ-idO" secondAttribute="trailing" constant="24" id="63n-mo-x1d"/>
@@ -836,7 +838,6 @@ Your battery usage may increase.</string>
                             <constraint firstItem="FdU-iA-P2V" firstAttribute="top" secondItem="Dbd-1k-8Po" secondAttribute="bottom" constant="12" id="qxv-F5-JlG"/>
                             <constraint firstItem="ExL-Tr-u3N" firstAttribute="bottom" secondItem="Rda-kZ-idO" secondAttribute="bottom" constant="24" id="u80-Vu-HLx"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ExL-Tr-u3N"/>
                     </view>
                     <navigationItem key="navigationItem" id="tZA-un-LeA"/>
                     <connections>
@@ -988,7 +989,7 @@ Your battery usage may increase.</string>
                                                                 <rect key="frame" x="250" y="15" width="22" height="44"/>
                                                             </imageView>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstItem="G4h-DG-m98" firstAttribute="top" secondItem="n8B-yK-zPc" secondAttribute="top" constant="15" id="5ar-6P-wce"/>
                                                             <constraint firstAttribute="trailing" secondItem="G4h-DG-m98" secondAttribute="trailing" constant="16" id="KEM-Km-YL7"/>
@@ -1003,7 +1004,7 @@ Your battery usage may increase.</string>
                                                                 <integer key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="layer.shadowColor">
-                                                                <color key="value" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="value" systemColor="systemRedColor"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
                                                                 <size key="value" width="0.0" height="5"/>
@@ -1055,7 +1056,7 @@ Your battery usage may increase.</string>
                                                                 <rect key="frame" x="250" y="15" width="22" height="44"/>
                                                             </imageView>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstItem="H1q-lj-V7w" firstAttribute="top" secondItem="ZNn-4p-s3i" secondAttribute="top" constant="15" id="3cy-QB-8ex"/>
                                                             <constraint firstAttribute="trailing" secondItem="H1q-lj-V7w" secondAttribute="trailing" constant="16" id="Llp-Wj-poq"/>
@@ -1070,7 +1071,7 @@ Your battery usage may increase.</string>
                                                                 <integer key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="layer.shadowColor">
-                                                                <color key="value" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="value" systemColor="systemRedColor"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
                                                                 <size key="value" width="0.0" height="5"/>
@@ -1122,7 +1123,7 @@ Your battery usage may increase.</string>
                                                                 <rect key="frame" x="250" y="15" width="22" height="138"/>
                                                             </imageView>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstItem="xEh-wX-pdN" firstAttribute="top" secondItem="ICq-T2-I96" secondAttribute="top" constant="15" id="2T4-3g-M7R"/>
                                                             <constraint firstAttribute="bottom" secondItem="byz-Ld-DQp" secondAttribute="bottom" constant="16" id="B2e-cr-b0k"/>
@@ -1137,7 +1138,7 @@ Your battery usage may increase.</string>
                                                                 <integer key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="layer.shadowColor">
-                                                                <color key="value" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="value" systemColor="systemRedColor"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
                                                                 <size key="value" width="0.0" height="5"/>
@@ -1189,7 +1190,7 @@ Your battery usage may increase.</string>
                                                                 <rect key="frame" x="250" y="15" width="22" height="138"/>
                                                             </imageView>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstItem="0Bq-dX-rBb" firstAttribute="top" secondItem="JMY-Vd-8r5" secondAttribute="top" constant="15" id="0cP-9T-xla"/>
                                                             <constraint firstAttribute="bottom" secondItem="T1S-u0-WAI" secondAttribute="bottom" constant="16" id="Zpv-gs-TmF"/>
@@ -1204,7 +1205,7 @@ Your battery usage may increase.</string>
                                                                 <integer key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="layer.shadowColor">
-                                                                <color key="value" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="value" systemColor="systemRedColor"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
                                                                 <size key="value" width="0.0" height="5"/>
@@ -1256,7 +1257,7 @@ Your battery usage may increase.</string>
                                                                 <rect key="frame" x="250" y="15" width="22" height="44"/>
                                                             </imageView>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vcv-Er-8qy" secondAttribute="trailing" constant="20" symbolic="YES" id="beB-ee-99A"/>
                                                             <constraint firstAttribute="bottom" secondItem="vcv-Er-8qy" secondAttribute="bottom" constant="16" id="beK-mn-MZf"/>
@@ -1271,7 +1272,7 @@ Your battery usage may increase.</string>
                                                                 <integer key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="layer.shadowColor">
-                                                                <color key="value" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="value" systemColor="systemRedColor"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
                                                                 <size key="value" width="0.0" height="5"/>
@@ -1323,7 +1324,7 @@ Your battery usage may increase.</string>
                                                                 <rect key="frame" x="250" y="15" width="22" height="44"/>
                                                             </imageView>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstItem="K6z-fL-CBE" firstAttribute="leading" secondItem="frd-Eh-ET5" secondAttribute="leading" constant="16" id="0GU-Gj-SLV"/>
                                                             <constraint firstAttribute="bottom" secondItem="K6z-fL-CBE" secondAttribute="bottom" constant="16" id="3eC-49-6QG"/>
@@ -1338,7 +1339,7 @@ Your battery usage may increase.</string>
                                                                 <integer key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="layer.shadowColor">
-                                                                <color key="value" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="value" systemColor="systemRedColor"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
                                                                 <size key="value" width="0.0" height="5"/>
@@ -1392,7 +1393,7 @@ Your battery usage may increase.</string>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x5Y-U5-ZkO">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x5Y-U5-ZkO">
                                                                 <rect key="frame" x="16" y="196.5" width="258" height="31"/>
                                                                 <state key="normal">
                                                                     <attributedString key="attributedTitle">
@@ -1410,7 +1411,7 @@ Your battery usage may increase.</string>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstItem="W1I-gM-V0v" firstAttribute="top" secondItem="4hN-Xq-0Iq" secondAttribute="top" constant="16" id="06f-qb-Pnr"/>
                                                             <constraint firstItem="WV2-xp-47d" firstAttribute="leading" secondItem="4hN-Xq-0Iq" secondAttribute="leading" constant="16" id="2S8-DA-a5h"/>
@@ -1428,7 +1429,7 @@ Your battery usage may increase.</string>
                                                                 <integer key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="layer.shadowColor">
-                                                                <color key="value" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="value" systemColor="systemRedColor"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
                                                                 <size key="value" width="0.0" height="5"/>
@@ -1505,7 +1506,7 @@ Your battery usage may increase.</string>
                                                                 <integer key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="layer.shadowColor">
-                                                                <color key="value" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="value" systemColor="systemRedColor"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
                                                                 <size key="value" width="0.0" height="5"/>
@@ -1567,14 +1568,14 @@ Your battery usage may increase.</string>
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="D2I-UZ-Ply"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="mB8-0X-aox" firstAttribute="leading" secondItem="D2I-UZ-Ply" secondAttribute="leading" id="afj-oE-b8c"/>
                             <constraint firstItem="D2I-UZ-Ply" firstAttribute="bottom" secondItem="mB8-0X-aox" secondAttribute="bottom" id="bdn-Zh-AMc"/>
                             <constraint firstItem="mB8-0X-aox" firstAttribute="top" secondItem="D2I-UZ-Ply" secondAttribute="top" id="ewL-V3-fvG"/>
                             <constraint firstItem="D2I-UZ-Ply" firstAttribute="trailing" secondItem="mB8-0X-aox" secondAttribute="trailing" id="sD9-tr-Pf7"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="D2I-UZ-Ply"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="ic-home" selectedImage="ic-home-selected" id="ldq-ma-pwg"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -1638,18 +1639,18 @@ Your battery usage may increase.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To be implemented" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bza-Ha-aNb">
-                                <rect key="frame" x="86.5" y="267" width="147" height="21"/>
+                                <rect key="frame" x="87" y="267" width="146" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="N1U-bO-RET"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Bza-Ha-aNb" firstAttribute="centerX" secondItem="N1U-bO-RET" secondAttribute="centerX" id="Stg-D3-KRL"/>
                             <constraint firstItem="Bza-Ha-aNb" firstAttribute="centerY" secondItem="N1U-bO-RET" secondAttribute="centerY" id="XKn-Se-F3f"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="N1U-bO-RET"/>
                     </view>
                     <navigationItem key="navigationItem" id="gsT-BG-Q8r"/>
                 </viewController>
@@ -1713,11 +1714,11 @@ Your battery usage may increase.</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRC-lV-uQr">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRC-lV-uQr">
                                 <rect key="frame" x="16" y="148.5" width="69" height="30"/>
                                 <state key="normal" title="Clear logs"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZA-t0-Elh">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZA-t0-Elh">
                                 <rect key="frame" x="126" y="261" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </button>
@@ -1737,7 +1738,7 @@ Your battery usage may increase.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peripheral state:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbp-vB-pVU">
-                                <rect key="frame" x="16" y="351.5" width="125" height="21"/>
+                                <rect key="frame" x="16" y="351.5" width="124" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1751,11 +1752,11 @@ Your battery usage may increase.</string>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nJE-hZ-vEN">
                                 <rect key="frame" x="161" y="234.5" width="51" height="31"/>
                             </switch>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LwD-cg-62p">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LwD-cg-62p">
                                 <rect key="frame" x="16" y="280.5" width="155" height="30"/>
                                 <state key="normal" title="Obtain Bluetooth state"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1A-NB-uUq">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1A-NB-uUq">
                                 <rect key="frame" x="243" y="15.5" width="48" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="bFt-eo-wTg"/>
@@ -1766,7 +1767,8 @@ Your battery usage may increase.</string>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="xwa-Fu-Y42"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="xwa-Fu-Y42" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="AaM-mf-r4E" secondAttribute="trailing" symbolic="YES" id="06V-19-SjY"/>
                             <constraint firstItem="xXg-2v-r6T" firstAttribute="leading" secondItem="xwa-Fu-Y42" secondAttribute="leading" constant="16" id="0Wj-g1-gyq"/>
@@ -1799,7 +1801,6 @@ Your battery usage may increase.</string>
                             <constraint firstItem="AaM-mf-r4E" firstAttribute="leading" secondItem="xwa-Fu-Y42" secondAttribute="leading" constant="16" id="zJi-ku-TKK"/>
                             <constraint firstItem="xwa-Fu-Y42" firstAttribute="trailing" secondItem="K9L-bb-Uz0" secondAttribute="trailing" constant="16" id="zgp-4v-qrt"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="xwa-Fu-Y42"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="gear" catalog="system" id="HuB-0B-BW3"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -1827,7 +1828,7 @@ Your battery usage may increase.</string>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BQw-JW-p12">
                                 <rect key="frame" x="0.0" y="61" width="320" height="438"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LogCell" id="eTZ-kX-BZb">
                                         <rect key="frame" x="0.0" y="28" width="320" height="43.5"/>
@@ -1845,7 +1846,7 @@ Your battery usage may increase.</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzT-59-yTf">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzT-59-yTf">
                                 <rect key="frame" x="205" y="27" width="99" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Take me out of here!"/>
@@ -1854,7 +1855,8 @@ Your battery usage may increase.</string>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="bvn-g5-QDK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="BQw-JW-p12" firstAttribute="leading" secondItem="bvn-g5-QDK" secondAttribute="leading" id="3vX-Uc-g4j"/>
                             <constraint firstItem="vzT-59-yTf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="p85-OU-TR2" secondAttribute="trailing" constant="8" symbolic="YES" id="53f-IU-1kN"/>
@@ -1866,7 +1868,6 @@ Your battery usage may increase.</string>
                             <constraint firstItem="vzT-59-yTf" firstAttribute="firstBaseline" secondItem="p85-OU-TR2" secondAttribute="firstBaseline" id="uAU-20-lYL"/>
                             <constraint firstItem="bvn-g5-QDK" firstAttribute="bottom" secondItem="BQw-JW-p12" secondAttribute="bottom" id="unC-Xh-z4H"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="bvn-g5-QDK"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Logs" image="list.dash" catalog="system" id="uSm-wg-y7O"/>
                     <connections>
@@ -1893,7 +1894,7 @@ Your battery usage may increase.</string>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="g28-0W-roV">
                                 <rect key="frame" x="0.0" y="104.5" width="320" height="394.5"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="kF8-te-4u5">
                                         <rect key="frame" x="0.0" y="28" width="320" height="43.5"/>
@@ -1912,7 +1913,8 @@ Your battery usage may increase.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="062-8s-QJe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="g28-0W-roV" firstAttribute="top" secondItem="2PA-qS-5Rm" secondAttribute="bottom" constant="10" id="Aqk-w2-D8d"/>
                             <constraint firstItem="062-8s-QJe" firstAttribute="bottom" secondItem="g28-0W-roV" secondAttribute="bottom" id="CFg-fB-NcK"/>
@@ -1924,7 +1926,6 @@ Your battery usage may increase.</string>
                             <constraint firstItem="2PA-qS-5Rm" firstAttribute="top" secondItem="uyw-zh-fkG" secondAttribute="bottom" constant="5" id="wYI-lb-2Mq"/>
                             <constraint firstItem="062-8s-QJe" firstAttribute="trailing" secondItem="g28-0W-roV" secondAttribute="trailing" id="xd0-3l-Zdn"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="062-8s-QJe"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="TempIDs" image="person.circle" catalog="system" id="gNq-to-dhP"/>
                     <connections>
@@ -1936,7 +1937,13 @@ Your battery usage may increase.</string>
             <point key="canvasLocation" x="-2621" y="3375"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="2mB-by-LSD">
+            <size key="intrinsicContentSize" width="-1" height="4"/>
+        </designable>
+    </designables>
     <inferredMetricsTieBreakers>
+        <segue reference="Vln-72-O1E"/>
         <segue reference="QjH-5K-Ggq"/>
         <segue reference="12k-kx-ORG"/>
         <segue reference="4eL-1Z-MtW"/>
@@ -1967,5 +1974,11 @@ Your battery usage may increase.</string>
         <image name="share" width="17" height="17"/>
         <image name="small tick" width="22" height="22"/>
         <image name="smartphone" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
